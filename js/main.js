@@ -16,7 +16,7 @@ var app = {
             $('.options-list').empty();
             for (var i=0; i<l; i++) {
                 e = options[i];
-                $('.options-list').append('<input type="radio" class="option" name="option" value=' + e.id + '>' + e.value + '</input>');
+                $('.options-list').append('<input type="radio" class="option" name="option" value=' + e.id + '>' + e.value + '</input><br/>');
             }
         });
     },
