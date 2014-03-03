@@ -23,7 +23,7 @@ var app = {
 
     initialize: function() {
         this.store = new MemoryStore();
-     //   this.submitAndGetNextQuestion();
+        this.submitAndGetNextQuestion();
         $('.submit').click($.proxy(this.submitAndGetNextQuestion, this));
     }
 };
